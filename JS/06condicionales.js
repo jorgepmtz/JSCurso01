@@ -16,3 +16,6 @@ if(edad >= 18) {
   console.log('tienes '+edad+' años, eres menor de edad');
 }
 
+// Operadores lógicos
+
+
