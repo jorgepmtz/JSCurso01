@@ -16,6 +16,10 @@ if(edad >= 18) {
   console.log('tienes '+edad+' años, eres menor de edad');
 }
 
-// Operadores lógicos
+// Operadores lógicos 2022 01 27 : JPM : Revisar Notas en Obsidian
+
+
+
+
 
 
