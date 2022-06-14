@@ -15,3 +15,4 @@ if((numero % 2) == 0){
 }else{
   alert('el número : ' + numero + ' es un número IMPAR');
 }
+
