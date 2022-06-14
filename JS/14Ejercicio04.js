@@ -1,7 +1,7 @@
 'use strict'
 
 /*
-Hacer un programa que acepte 2 número y muestre todos los números enteros que existen entre ambos
+Mostrar los números impares que hay entre 2 número introducidos:
 */
 
 var n1 = 0;
@@ -27,23 +27,13 @@ if(n1 < n2){
   alert('C. inferior = ' + inferior + '  superior = ' + superior + '  son IGUALES');
 }
 
-/*
-do{
-  inferior + 1;
-  console.log('inferior = ' + inferior + '  superior = ' + superior);
-}while(inferior == superior);
-*/
-/*
-while (inferior >= superior){
-  inferior + 1;
-  console.log('inferior = ' + inferior + '  superior = ' + superior);
-  //debugger;
-}
-*/
-
-
-document.write('<H2> Del numero ' + inferior + ' al ' + superior + ' estan los siguientes números : </H2>');
+document.write('<H2> Los número pares entre el numero ' + inferior + ' al ' + superior + ' son : </H2>');
+// debugger;
 for (var i = inferior; i <= superior; i++){
-  console.log('números : ' + i);
-  document.write( i + '</br>')
+  
+  if ((i % 2) != 0){
+    console.log('números : ' + i);
+    document.write( i + '</br>');
+  }
+  
 }
