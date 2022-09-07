@@ -14,11 +14,48 @@
   alert("Bienvenido al curso");
 </script>
 -->
-<script src="js/24.plantillas.js"></script>
+
 
 </head>
 <body>
   <h1>Curso JScript</h1>
-  <P>Mi primer Script en JS</P>
+
+  <section>
+    <p>
+      <!-- Funciona desde HTML con onclick pero una mejor práctica es hacerlo desde JS para no ensuciar código usando addEventListener
+      <button id="btnEventos" onclick="cambiarColor()"> Presioname - Eventos </button>    -->
+      <button id="btnEventos" > Presioname - Eventos </button>
+      <div id="miCajaEventos">Hola soy una caja para Eventos</div>
+    </p>
+  </br>
+
+  </section>
+
+
+  <section id="misec">
+    <h1 id="encabezado" >listado de textos de los divs</h1>
+
+    <hr>
+  </section>
+
+  <div class="micaja" id="micaja"> Soy una caja </div> 
+  <div class="amarillo"> Soy la caja DOS</div>
+  <div class="rojo"> Soy la caja UNO</div>
+  <div class="rojo"> Soy la caja TRES</div>
+  <hr>
+  </br>
+  <p> 
+    <button type="button" onclick="getBom()">Presiona</button>
+  </p>
+  </br> 
+  <hr>  
+  
+  </p>
+
+
+  <!-- ----- Scripts ---- --> 
+  <script src="js/30eventos.js"></script>
+
 </body>
 </html>
+
