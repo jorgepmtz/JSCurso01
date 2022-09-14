@@ -5,35 +5,36 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Curso JS</title>
-<!-- 
-  El código Java Script, siempre va al final del header porque es donde van los metadatos 
-  y es opcional especificar <script type="text/javascript"> antes de html5 se usaba.
 
-<script> 
-  alert("Hola mundo con JS");
-  alert("Bienvenido al curso");
-</script>
--->
+  <!-- El código Java Script, siempre va al final del header porque es donde van los metadatos 
+  y es opcional especificar <script type="text/javascript"> antes de html5 se usaba. -->
 
+<script src="js/31timer.js"> </script>
 
 </head>
 <body>
-  <h1>Curso JScript</h1>
-
+  <h1> Curso JScript </h1>
+  
   <section>
     <p>
+      <button id="btnStop" > Stop setInterval </button>  <!--Boton para parar setInterval en 31timer.js-->
+      <button id="btnStart" > Start setInterval </button>  <!--Boton para reiniciar setInterval en 31timer.js-->
       <!-- Funciona desde HTML con onclick pero una mejor práctica es hacerlo desde JS para no ensuciar código usando addEventListener
       <button id="btnEventos" onclick="cambiarColor()"> Presioname - Eventos </button>    -->
       <button id="btnEventos" > Presioname - Eventos </button>
       <div id="miCajaEventos">Hola soy una caja para Eventos</div>
     </p>
   </br>
+  
 
-  </section>
+  <form>
+    <input type = 'text' name ='nombre' id='campo_nombre'>
+  </form>
 
-
-  <section id="misec">
-    <h1 id="encabezado" >listado de textos de los divs</h1>
+</section>
+  
+  <section id='misec'>
+    <h2 id= 'encabezado' >listado de textos de los divs</h2>
 
     <hr>
   </section>
@@ -45,16 +46,15 @@
   <hr>
   </br>
   <p> 
-    <button type="button" onclick="getBom()">Presiona</button>
+    <button type= 'button' onclick='getBom()' >Presiona</button>
   </p>
   </br> 
   <hr>  
   
   </p>
 
-
-  <!-- ----- Scripts ---- --> 
-  <script src="js/30eventos.js"></script>
+  <!-- ----- Scripts estaba aqui antes de conocer el evento load y ponerlo en el script ---- --> 
+  <!-- <script src="js/30eventos.js"></script> -->
 
 </body>
 </html>
